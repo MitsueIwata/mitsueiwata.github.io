@@ -32,10 +32,15 @@ h1{
 }
 h2 {  
     font-family: "Abril Fatface", serif;
+    font-size: 1.35em;
+}
+h3 {
+    font-size: 1.0em;
 }
 p {
-    font-size: 1.0em;
+    font-size: .9em;
     line-height: 1.4em;
+    margin-bottom: 20px;
     color: #333;
 }
 footer {
@@ -52,5 +57,24 @@ ul.posts {
 ul.posts li {
     list-style: none;
     padding-left:0;
+}
+section {
+    border-top: 1px solid #dedede;
+    padding: 20px 0 0;
+}
+.sectionContent h3 {
+    /*font-size: 1.5em;*/
+    margin-bottom: -12px;
+}
+.subDetails {
+    /*font-size: 0.8em;*/
+    font-style: italic;
+    margin-bottom: 3px;
+}
+.subEd {
+    /*font-size: 0.8em;*/
+    /*font-style: italic;*/
+    /*margin-bottom: 3px;*/
+    margin-top: 0;
 }
 
