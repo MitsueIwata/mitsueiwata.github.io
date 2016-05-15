@@ -1,18 +1,24 @@
 body {
     margin: 60px auto;
     width: 50%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-
+    /*font-family:'Century Gothic', 'Sans-Serif';*/
+    /*font-family: "Lato";*/
+    font-family: "Varela Round";
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: 1px;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+}
+header nav ul li {
+    font-weight: 1px;
+}
+nav ul li.header-name{
+    font-size: 1.25em;
 }
 a {
     text-decoration: none;
